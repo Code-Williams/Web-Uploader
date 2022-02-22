@@ -1,0 +1,37 @@
+.shipping-detail-name{
+    font-size: 20px !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: bold !important;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.shipping-address-detail span{
+    font-size: 14px;
+    color: rgb(24, 24, 24);
+    float: right;
+    text-align: right;
+    font-weight: lighter;
+    width: 100%;
+}
+
+input[type="radio"]{
+    float: left;
+}
+
+label:not(:last-child){
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 20px;
+}
+
+.shipping-address-detail{
+    width: 100%;
+}
+
+.noIcon{
+    text-align: right !important;
+}
+
+.noIcon::before{
+    content: "" !important;
+}

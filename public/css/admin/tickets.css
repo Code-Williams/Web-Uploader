@@ -1,0 +1,42 @@
+li{
+    list-style: none;
+}
+
+.ticket{
+    width: 90%;
+    background-color: #343a40;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    text-align: right;
+}
+
+.ticket small{
+    color: rgb(196, 196, 196);
+}
+
+.ticket-info-sub{
+    float: right;
+    margin-left: 20px;
+}
+
+.ticket-info{
+    width: 100%;
+    min-height: 50px;
+}
+
+.ticket *{
+    direction: rtl;
+}
+
+.ticket-delete{
+    color: rgb(255, 80, 80);
+}
+
+.ticket-info-right{
+    float: right;
+}   
+
+.ticket-info-left{
+    float: left;
+}

@@ -1,0 +1,99 @@
+.address-handler{
+    grid-column: span 5/span 5;   
+    display: flex;
+    justify-content: center;
+}
+
+.address-menu{
+    background-color: white;
+    width: 95%;
+    height: 530px;
+    padding: 15px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 7px;
+}
+
+.address-menu-top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.address-menu-title{
+    font-weight: lighter;
+    align-items: center;
+}
+
+.address-menu-bottom input{
+    padding: 10px;
+    width: 300px;
+    float: right;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #f28123;
+    outline: none;
+    transition: border 0.1s ease-in-out;
+}
+
+.textAreaHandler{
+    width: 100%;
+    float: right;
+}
+
+.address-menu-bottom textarea{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #f28123;
+    outline: none;
+    transition: border 0.1s ease-in-out;
+    width: 500px;
+    max-height: 300px;
+    min-height: 300px;
+    float: right;
+    transition: border 0.2s ease-in-out;
+}
+
+.address-menu-bottom textarea::placeholder{
+    color: #cc6917;
+}
+
+.address-menu-bottom textarea:focus{
+    border: 2px solid #f28123;
+}
+
+.address-menu-bottom input:focus{
+    border: 2px solid #f28123;
+}
+
+.address-menu-bottom input::placeholder{
+    color: #cc6917;
+}
+
+.address-menu-bottom input[name="addressCode"]{
+    width: 100px;
+}
+
+button[type="submit"]{
+    background-color: #f28123;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    min-width: 80px;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover{
+  background-color: #051922;
+  color: #f28123;
+}
+
+.buttonAreaHandler{
+    width: 100%;
+    float: right;
+    margin-top: 30px;
+}

@@ -1,0 +1,20 @@
+.flash{
+    background-color: #fceee4;
+    border: 1px solid #f28123;
+    padding: 5px 10px;
+    border-radius: 5px;
+    min-width: 200px;
+    font-size: 14px;
+    font-weight: lighter;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #944b10;
+    text-align: right;
+}
+
+.flash-success{
+    background-color: rgb(149, 236, 10, .1) !important;
+    border: 1px solid rgb(9, 182, 9) !important;
+    color: rgb(255, 255, 255) !important;
+}

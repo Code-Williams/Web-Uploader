@@ -1,0 +1,92 @@
+@media only screen and (max-width: 1365px) and (min-width : 991px) {
+
+    .footer-area{
+        text-align: right;
+    }
+
+    .widget-title::after{
+        right: 0 !important;
+        left: auto !important;
+    }
+
+    .menus{
+        height: auto;
+    }
+
+    #menuTopInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuTopInfo-right{
+        width: 95%;
+    }
+
+    .menuTopInfo-left{
+        width: 95%;
+    }
+
+    #orders-handler{
+        margin-bottom: 20px;
+    }
+
+    .address-handler{
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .menu-right{
+        display: none;
+    }
+
+    .footer-area{
+        text-align: right;
+    }
+
+    .widget-title::after{
+        right: 0 !important;
+        left: auto !important;
+    }
+
+    .menus{
+        height: auto;
+    }
+
+    #menuTopInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menuTopInfo-right{
+        width: 95%;
+    }
+
+    .menuTopInfo-left{
+        width: 95%;
+    }
+
+    .subInformations{
+        width: 100%;
+        border: 1px solid rgb(218, 214, 214) !important;
+    }
+
+    .subInformations:not(:last-child){
+        border-bottom: 0 !important;
+    }
+
+    .address-menu-bottom textarea{
+        width: 100%;
+        margin: 0;
+    }
+
+    .menuTopInfo-sub{
+        height: auto;
+    }
+    
+    #address-menu{
+        height: 350px;
+    }
+}

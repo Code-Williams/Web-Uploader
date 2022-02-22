@@ -1,0 +1,62 @@
+.menus *{
+    text-align: right;
+}
+
+#orders-main{
+    padding: 15px;
+}
+
+#orders-handler{
+    margin-bottom: 20px;
+}
+
+.right-title{
+    color: gray;
+}
+
+.menuTopInfo-right p{
+    font-size: 17px;
+    margin: 0;
+}
+
+.info-sub{
+    width: 50%;
+    float: right;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.informations-value{
+    float: right;
+    margin: 0;
+    transition: opacity 0.3s;
+}
+
+.fa-edit{
+    cursor: pointer;
+}
+
+.informations input{
+    outline: none;
+}
+
+.subInfo-inputs{
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.fa-edit{
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.noneBtn{
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.fa-times-circle{
+    cursor: pointer;
+}

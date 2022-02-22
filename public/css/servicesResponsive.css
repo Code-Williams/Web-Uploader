@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1200px){
+}
+
+@media only screen and (max-width: 1365px) and (min-width : 991px) {
+}
+
+@media only screen and (max-width: 991px){
+    #file2{
+        display: block !important;
+        width: 300px !important;
+        float: right;
+    }
+
+    .services-left{
+        display: none;
+    }
+
+    .services-right{
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .services-right input{
+        width: 100%;
+    }
+}
