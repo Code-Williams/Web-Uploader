@@ -1,0 +1,95 @@
+<div
+  style="
+    background-color: #010608;
+    width: 100%;
+    height: 95px;
+    position: absolute;
+    opacity: 0.5;
+  "
+></div>
+
+<div class="top-header-area" id="sticker">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12 text-center">
+        <div class="main-menu-wrap">
+          <!-- logo -->
+          <div class="site-logo">
+            <a href="/">
+              <img src="/img/logo.png" alt="" />
+            </a>
+          </div>
+          <!-- logo -->
+
+          <!-- menu start -->
+          <nav class="main-menu">
+            <ul>
+              <!-- when a button actived, add class="current-list-item" -->
+              <li>
+                <a href="/">Home</a>
+              </li>
+
+              <li>
+                <a href="/upload">Uploader</a>
+              </li>
+
+              <li>
+                <div class="header-icons whiteText">
+
+                  <% if(!user){ %>
+
+                    <a href="/login" class="sign-items">Login</a>
+                    <p class="slash-sign">/</p>
+                    <a href="/register" class="sign-items">Register</a>
+
+                  <% }else{ %>
+
+                    <a href="/dashboard">Dashboard</a>
+
+                  <%}%>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          <a class="mobile-show search-bar-icon" href="#"
+            ><i class="fas fa-search"></i
+          ></a>
+          <div
+            class="black-sc"
+            style="
+              background-color: black;
+              width: 100%;
+              height: 100vh;
+              position: fixed;
+              top: 0;
+              opacity: 0.5;
+              left: 0;
+              display: none;
+            "
+          ></div>
+          <div class="mobile-menu"></div>
+          <!-- menu end -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end header -->
+
+<!-- search area -->
+<div class="search-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <span class="close-btn"><i class="fas fa-window-close"></i></span>
+        <div class="search-bar">
+          <div class="search-bar-tablecell">
+            <h3>جستجو برای:</h3>
+            <input type="text" placeholder="متن جستجو" />
+            <button type="submit">جستجو <i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

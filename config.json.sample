@@ -1,0 +1,14 @@
+{
+  "app": {
+    "port": PORT
+  },
+  "database": {
+    "host": "HOST",
+    "user": "USER",
+    "password": "PASSWORd",
+    "name": "DATABASE_NAME"
+  },
+  "secret" : "shayanwilliams",
+
+  "domain":"http://localhost:300/"
+}
